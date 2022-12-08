@@ -141,7 +141,8 @@ li .other , .dropdown a{
     
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    
+    justify-content: space-between;
     transition: all .2s ease 0s;
     padding: 30px;
     color: white;
@@ -170,17 +171,21 @@ li .other , .dropdown a{
   border: 0;
   border-radius: 0;
   padding: 0 2em 0 0;
-  -webkit-appearance: none;
+ /* -webkit-appearance: none;*/
   outline: 0;
   text-transform: none;
   text-decoration: underline;
   cursor: pointer;
+}
+.boxpatients .style-select select option{
+  color : black
 }
 .boxpatients h1{
   font-size: 1.625em;
   font-weight: 400;
   color: #fff;
   margin: 0.3em 0;
+  margin-top: 30px;
 }
 .boxpatients h2{
 font-size: 1.5em;
